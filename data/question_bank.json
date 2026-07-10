@@ -1,0 +1,25 @@
+[
+  {"id": "q001", "text": "Tell me about a time you had to lead a project without formal authority over the people involved.", "role_type": "TPM", "competency": "leadership", "difficulty": "mid"},
+  {"id": "q002", "text": "Describe a situation where two stakeholders wanted conflicting things from your product. How did you resolve it?", "role_type": "TPM", "competency": "stakeholder_management", "difficulty": "mid"},
+  {"id": "q003", "text": "Walk me through how you would prioritize a backlog when everything is labeled 'urgent' by different teams.", "role_type": "TPM", "competency": "prioritization", "difficulty": "mid"},
+  {"id": "q004", "text": "Tell me about a release that went wrong. What happened and what did you change afterward?", "role_type": "TPM", "competency": "failure", "difficulty": "mid"},
+  {"id": "q005", "text": "How do you decide what NOT to build, given limited engineering capacity?", "role_type": "TPM", "competency": "product_sense", "difficulty": "senior"},
+  {"id": "q006", "text": "Describe how you'd design a system to detect and alert on late shipments across a global supply chain.", "role_type": "TPM", "competency": "system_design", "difficulty": "senior"},
+  {"id": "q007", "text": "Tell me about a time a project's scope changed midway through. How did you handle communicating that to stakeholders?", "role_type": "TPM", "competency": "ambiguity", "difficulty": "mid"},
+
+  {"id": "q010", "text": "Design a rate limiter for a public API. Walk me through your approach.", "role_type": "Software Engineer", "competency": "system_design", "difficulty": "mid"},
+  {"id": "q011", "text": "Tell me about the most complex bug you've debugged. How did you track it down?", "role_type": "Software Engineer", "competency": "technical_depth", "difficulty": "mid"},
+  {"id": "q012", "text": "How would you design a URL shortening service that needs to handle millions of requests per day?", "role_type": "Software Engineer", "competency": "system_design", "difficulty": "senior"},
+  {"id": "q013", "text": "Describe a time you disagreed with a teammate's technical approach. What did you do?", "role_type": "Software Engineer", "competency": "conflict_resolution", "difficulty": "mid"},
+  {"id": "q014", "text": "Tell me about a time you had to learn a new technology quickly to ship something on time.", "role_type": "Software Engineer", "competency": "ambiguity", "difficulty": "mid"},
+
+  {"id": "q020", "text": "Explain how you would design the memory architecture for a multi-agent LLM system handling long conversations.", "role_type": "AI Engineer", "competency": "system_design", "difficulty": "senior"},
+  {"id": "q021", "text": "How would you evaluate whether a RAG pipeline's retrieval step is actually helping versus hurting answer quality?", "role_type": "AI Engineer", "competency": "technical_depth", "difficulty": "senior"},
+  {"id": "q022", "text": "Tell me about a time an AI system you built produced an unexpected or wrong output in production. What did you do?", "role_type": "AI Engineer", "competency": "failure", "difficulty": "mid"},
+  {"id": "q023", "text": "How would you decide when to use a multi-agent architecture versus a single well-prompted agent?", "role_type": "AI Engineer", "competency": "product_sense", "difficulty": "senior"},
+  {"id": "q024", "text": "Describe how you would reduce hallucinations in an agent that has access to external tools.", "role_type": "AI Engineer", "competency": "technical_depth", "difficulty": "senior"},
+
+  {"id": "q030", "text": "Tell me about a time you received tough feedback. How did you respond?", "role_type": "General", "competency": "communication", "difficulty": "entry"},
+  {"id": "q031", "text": "Describe a time you had to make a decision with incomplete information.", "role_type": "General", "competency": "ambiguity", "difficulty": "entry"},
+  {"id": "q032", "text": "Tell me about a conflict you had with a coworker and how you resolved it.", "role_type": "General", "competency": "conflict_resolution", "difficulty": "entry"}
+]

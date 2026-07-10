@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Interview Coach</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Interview Coach</h1>
+
+    <section id="setup">
+      <h2>1. Tell it about the role</h2>
+      <label>Job description or role summary (paste anything, or leave blank)</label>
+      <textarea id="jobDescription" rows="4" placeholder="Paste a job description here..."></textarea>
+
+      <label>Resume text (optional, paste anything)</label>
+      <textarea id="resumeText" rows="4" placeholder="Paste your resume text here..."></textarea>
+
+      <button id="analyzeBtn">Analyze</button>
+      <div id="analyzeResult"></div>
+
+      <label>Number of questions</label>
+      <input id="numQuestions" type="number" value="3" min="1" max="10">
+
+      <label><input id="voiceToggle" type="checkbox"> Use voice (spoken questions + mic answers)</label>
+
+      <button id="startBtn">Start interview</button>
+    </section>
+
+    <section id="interview" class="hidden">
+      <h2 id="questionCounter"></h2>
+      <p id="questionText"></p>
+      <audio id="questionAudio" controls class="hidden"></audio>
+
+      <div id="textAnswerArea">
+        <textarea id="answerText" rows="3" placeholder="Type your answer..."></textarea>
+      </div>
+
+      <div id="voiceAnswerArea" class="hidden">
+        <button id="recordBtn">Start recording</button>
+        <span id="recordStatus"></span>
+      </div>
+
+      <button id="submitAnswerBtn">Submit answer</button>
+
+      <div id="feedbackBox" class="hidden">
+        <h3>Scores</h3>
+        <pre id="scoresText"></pre>
+        <h3>Coach feedback</h3>
+        <p id="feedbackText"></p>
+        <audio id="feedbackAudio" controls class="hidden"></audio>
+        <button id="nextBtn" class="hidden">Next question</button>
+      </div>
+    </section>
+
+    <section id="summary" class="hidden">
+      <h2>Session complete</h2>
+      <p>Nice work. Here's your history:</p>
+      <div id="historyTable"></div>
+    </section>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

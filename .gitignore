@@ -1,0 +1,17 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# Generated / local data - don't commit these
+chroma_db/
+memory.sqlite3
+static/audio/*.mp3
+
+# OS junk
+.DS_Store
+Thumbs.db
