@@ -1,4 +1,4 @@
-# AI Interview Coach — full package
+# AI Interview Coach 
 
 A multi-agent, voice-enabled mock interview system with RAG-driven questions and
 persistent memory across sessions. Runs entirely on free tools.
